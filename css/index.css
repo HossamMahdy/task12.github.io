@@ -111,6 +111,7 @@ ul li:hover,
 .div6 :hover
 {
     background-color: rgb(56, 49, 90);
+    cursor:pointer;
 
 }
 span {
