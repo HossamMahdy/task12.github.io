@@ -1,0 +1,123 @@
+body {
+    background-color: black;
+    font-family: 'Rubik', sans-serif;
+}
+
+.con {
+    margin: 20vh 0;
+}
+
+.p {
+    padding: 20px 10px 0 10px;
+}
+
+.outer0 {
+    background-color: rgb(14, 0, 82);
+    color: white;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.div0 {
+    background-color: hsl(246, 80%, 60%);
+        border-radius: 10px;
+        
+}
+
+.div0 p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.626);
+}
+
+ul {
+    padding: 5px 0 0 20px;
+}
+
+ul li {
+    list-style: none;
+    margin: 10px 0;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.626);
+    cursor: pointer;
+}
+
+ul li:hover,
+:nth-child(2) {
+    color: white;
+}
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6 {
+    padding: 0;
+    padding-top: 30px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: 90% -5px;
+    background-size: 55px;
+}
+
+.div1 {
+    background-color: hsl(15, 100%, 70%);
+    background-image: url("../images/icon-work.svg");
+}
+
+.div2 {
+    background-color: hsl(195, 74%, 62%);
+    background-image: url("../images/icon-play.svg");
+}
+
+.div3 {
+    background-color: hsl(348, 100%, 68%);
+    background-image: url("../images/icon-study.svg");
+}
+
+.div4 {
+    background-color: hsl(145, 58%, 55%);
+    background-image: url("../images/icon-exercise.svg");
+}
+
+.div5 {
+    background-color: hsl(264, 64%, 52%);
+    background-image: url("../images/icon-social.svg");
+}
+
+.div6 {
+    background-color: hsl(43, 84%, 65%);
+    background-image: url("../images/icon-self-care.svg");
+}
+
+.outer {
+    padding: 20px 10px 0 10px;
+}
+
+.inner {
+    height: 100%;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: rgb(14, 0, 82);
+    color: white;
+}
+.div1 :hover,
+.div2 :hover,
+.div3 :hover,
+.div4 :hover,
+.div5 :hover,
+.div6 :hover
+{
+    background-color: rgb(56, 49, 90);
+
+}
+span {
+    font-size: 18px;
+}
+
+p {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.626);
+}
